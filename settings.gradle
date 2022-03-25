@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Practice2"
+include ':app'
+include ':z24'
+include ':z253_MultiAct'
+include ':z254'
+include ':z255_Intentfilter'
+include ':z264_notificationapp'
+include ':z262_toast'
+include ':z266_dialog'
