@@ -34,9 +34,7 @@
     <string name="CalcbDot">,</string>
     <string name="CalcbEquals">=</string>
     <string name="num">Ответ</string>
-
-
-
+    <string name="menu_MusicPlayer">MusicPlayer</string>
 
 
 </resources>
