@@ -7,12 +7,14 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -77,6 +79,7 @@ public class MusicFR extends Fragment {
         View view1 = inflater.inflate(R.layout.fragment_mplayer, container, false);
         Button b1 = view1.findViewById(R.id.button);
         Button b2 = view1.findViewById(R.id.button2);
+        TextView tv = view1.findViewById(R.id.textView4);
 
         b1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {

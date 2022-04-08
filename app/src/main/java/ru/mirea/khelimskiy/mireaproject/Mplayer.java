@@ -6,6 +6,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.telephony.TelephonyCallback;
+import android.util.Log;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
@@ -14,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Mplayer extends Service {
     private MediaPlayer mediaPlayer;
+    private String finalt;
 
 
 
@@ -32,10 +34,12 @@ public class Mplayer extends Service {
         mediaPlayer.setLooping(true);
 
 
+
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId){
         mediaPlayer.start();
+        Log.d("j","Сообщение "+finalt);
         return START_STICKY;
     }
 
