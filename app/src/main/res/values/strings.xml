@@ -35,6 +35,10 @@
     <string name="CalcbEquals">=</string>
     <string name="num">Ответ</string>
     <string name="menu_MusicPlayer">MusicPlayer</string>
+    <string name="menu_PhotoCam">PhotoCam</string>
+    <string name="Остановить">Остановить</string>
+    <string name="Начать">Начать</string>
+    <string name="menu_AudioRecording">AudioRecordng</string>
 
 
 </resources>

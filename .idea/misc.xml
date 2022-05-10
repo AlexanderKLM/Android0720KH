@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/app_bar_main.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/content_main.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_audiorec.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_blank.xml" value="0.21603260869565216" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_blank_calc.xml" value="0.5" />
-        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_home.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_gallery.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_mplayer.xml" value="0.25" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_musicpl.xml" value="0.1" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_photo_cam.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_slideshow.xml" value="0.21603260869565216" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/fragment_web.xml" value="0.1" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/layout/nav_header_main.xml" value="0.21603260869565216" />
@@ -17,6 +21,7 @@
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/menu/main.xml" value="0.1609375" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.112" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.112" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Mireaproject/app/src/main/res/xml/filepaths.xml" value="0.17222222222222222" />
       </map>
     </option>
   </component>

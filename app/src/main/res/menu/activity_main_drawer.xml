@@ -28,5 +28,13 @@
             android:id="@+id/nav_music"
             android:icon="@android:drawable/ic_media_play"
             android:title="@string/menu_MusicPlayer" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/menu_PhotoCam" />
+        <item
+            android:id="@+id/nav_audiorec"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="@string/menu_AudioRecording" />
     </group>
 </menu>

@@ -37,4 +37,14 @@
         android:name="ru.mirea.khelimskiy.mireaproject.MusicFR"
         android:label="Музыкальный проигрыватель"
         tools:layout="@layout/fragment_mplayer" />
+    <fragment
+    android:id="@+id/nav_photo"
+    android:name="ru.mirea.khelimskiy.mireaproject.ui.PhotoCam"
+    android:label="Фотокамера"
+    tools:layout="@layout/fragment_photo_cam" />
+    <fragment
+        android:id="@+id/nav_audiorec"
+        android:name="ru.mirea.khelimskiy.mireaproject.Audiorec"
+        android:label="Запись речи"
+        tools:layout="@layout/fragment_audiorec" />
 </navigation>
