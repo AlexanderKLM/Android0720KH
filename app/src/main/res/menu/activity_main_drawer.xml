@@ -36,5 +36,13 @@
             android:id="@+id/nav_audiorec"
             android:icon="@android:drawable/ic_btn_speak_now"
             android:title="@string/menu_AudioRecording" />
+        <item
+            android:id="@+id/nav_inputSettings"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="@string/menu_Input" />
+        <item
+            android:id="@+id/nav_History"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/menu_History" />
     </group>
 </menu>

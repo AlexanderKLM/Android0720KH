@@ -47,4 +47,14 @@
         android:name="ru.mirea.khelimskiy.mireaproject.Audiorec"
         android:label="Запись речи"
         tools:layout="@layout/fragment_audiorec" />
+    <fragment
+        android:id="@+id/nav_inputSettings"
+        android:name="ru.mirea.khelimskiy.mireaproject.SettingsInput"
+        android:label="Введите данные"
+        tools:layout="@layout/fragment_settings_input" />
+    <fragment
+        android:id="@+id/nav_History"
+        android:name="ru.mirea.khelimskiy.mireaproject.History"
+        android:label="История записей"
+        tools:layout="@layout/fragment_history" />
 </navigation>

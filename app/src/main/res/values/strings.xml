@@ -39,6 +39,8 @@
     <string name="Остановить">Остановить</string>
     <string name="Начать">Начать</string>
     <string name="menu_AudioRecording">AudioRecordng</string>
+    <string name="menu_Input">Input</string>
+    <string name="menu_History">History</string>
 
 
 </resources>
