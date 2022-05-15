@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082190708196",
+    "project_id": "part7-d00a0",
+    "storage_bucket": "part7-d00a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082190708196:android:e9f090632becdfa1f41bf1",
+        "android_client_info": {
+          "package_name": "ru.mirea.khelimskiy.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082190708196-1d6ah81ceshjndjmek8bq0eru1m1o5dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhnuH9MMKmboYlDaX8ha_ISYaLWVBv8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082190708196-1d6ah81ceshjndjmek8bq0eru1m1o5dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
