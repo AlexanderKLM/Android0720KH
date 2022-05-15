@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "898919042939",
+    "project_id": "mplogin-d7e36",
+    "storage_bucket": "mplogin-d7e36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898919042939:android:fd44d62f0d934bb0b237de",
+        "android_client_info": {
+          "package_name": "ru.mirea.khelimskiy.mireaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898919042939-h6igdtqjm51kvripvf6j7jgls41bbts9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh8uFAzFHp41MFuTUaurluXvb65tlktd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898919042939-h6igdtqjm51kvripvf6j7jgls41bbts9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

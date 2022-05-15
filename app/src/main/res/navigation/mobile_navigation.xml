@@ -57,4 +57,9 @@
         android:name="ru.mirea.khelimskiy.mireaproject.History"
         android:label="История записей"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_HTTPURL"
+        android:name="ru.mirea.khelimskiy.mireaproject.HttpUrl"
+        android:label="Сетевая информация"
+        tools:layout="@layout/fragment_http_url" />
 </navigation>

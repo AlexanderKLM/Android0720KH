@@ -44,5 +44,8 @@
             android:id="@+id/nav_History"
             android:icon="@android:drawable/ic_dialog_info"
             android:title="@string/menu_History" />
+        <item
+            android:id="@+id/nav_HTTPURL"
+            android:title="@string/menu_HTTP" />
     </group>
 </menu>
