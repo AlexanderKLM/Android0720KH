@@ -67,5 +67,7 @@ Firebase.</string>
     <string name="emailpassword_title_text">Email and Password</string>
     <string name="error_sign_in_failed">Sign in failed, see logs for details.</string>
     <string name="menu_HTTP">HTTP</string>
+    <string name="menu_RoomDB">RoomDB</string>
+    <string name="menu_Map">Map</string>
 
 </resources>

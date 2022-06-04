@@ -62,4 +62,14 @@
         android:name="ru.mirea.khelimskiy.mireaproject.HttpUrl"
         android:label="Сетевая информация"
         tools:layout="@layout/fragment_http_url" />
+    <fragment
+        android:id="@+id/nav_ROOM"
+        android:name="ru.mirea.khelimskiy.mireaproject.RoomDb"
+        android:label="База данных"
+        tools:layout="@layout/fragment_room_db" />
+    <fragment
+        android:id="@+id/nav_MAP"
+        android:name="ru.mirea.khelimskiy.mireaproject.Gmap"
+        android:label="Карта"
+        tools:layout="@layout/fragment_room_db" />
 </navigation>

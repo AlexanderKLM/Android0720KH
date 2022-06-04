@@ -20,6 +20,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -72,7 +73,19 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_browser, R.id.nav_calculator, R.id.nav_music, R.id.nav_photo, R.id.nav_audiorec, R.id.nav_inputSettings, R.id.nav_History,R.id.nav_HTTPURL)
+                R.id.nav_home,
+                R.id.nav_gallery,
+                R.id.nav_slideshow,
+                R.id.nav_browser,
+                R.id.nav_calculator,
+                R.id.nav_music,
+                R.id.nav_photo,
+                R.id.nav_audiorec,
+                R.id.nav_inputSettings,
+                R.id.nav_History,
+                R.id.nav_HTTPURL,
+                R.id.nav_ROOM,
+                R.id.GooglMap)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
@@ -81,11 +94,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         int cameraPermissionStatus = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
         int storagePermissionStatus = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
-        if (cameraPermissionStatus == PackageManager.PERMISSION_GRANTED && storagePermissionStatus == PackageManager.PERMISSION_GRANTED) {
+        int locPermissionStatus = ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
+        if (cameraPermissionStatus == PackageManager.PERMISSION_GRANTED && storagePermissionStatus == PackageManager.PERMISSION_GRANTED && locPermissionStatus == PackageManager.PERMISSION_GRANTED) {
             isWork = true;
         } else {
             // Выполняется запрос к пользователь на получение необходимых разрешений
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE},
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_COARSE_LOCATION},
                     REQUEST_CODE_PERMISSION_CAMERA);
         }
 
